@@ -1,0 +1,24 @@
+//----------------------------------------------   
+// Family: Ibarra Real Nova
+//  
+// Regular: 400
+// Bold: 700
+//----------------------------------------------
+
+// Regular (Latin ext)
+@font-face {
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ibarra Real Nova Regular'), local('IbarraRealNova-Regular'), url(https://fonts.gstatic.com/s/ibarrarealnova/v1/sZlfdQiA-DBIDCcaWtQzL4BZHoiDkHVYEf5tPuBaEA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+// Bold (Latin ext)
+@font-face {
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ibarra Real Nova Bold'), local('IbarraRealNova-Bold'), url(https://fonts.gstatic.com/s/ibarrarealnova/v1/sZlYdQiA-DBIDCcaWtQzL4BZHoiDmMB9BN1PM8pgGXeQpg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
