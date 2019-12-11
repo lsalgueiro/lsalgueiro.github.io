@@ -64,7 +64,7 @@ h6 {
 // H2 Theme
 //---------------------------------------------- 
 h2:not(.posts__text):not(.related__text) {
-  $fontSize: 2em;
+  $fontSize: 4em; //2em;
 
   font-family: $font-post;
   font-size: $fontSize;
