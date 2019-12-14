@@ -83,6 +83,7 @@ p {
     top: 0;
     bottom: 0.75em;
   }
+  white-space: pre-line;
 }
 
 //----------------------------------------------
@@ -151,6 +152,11 @@ sub {
 
 mark {
   color: $color-black;
+}
+
+em { 
+  font-family: "Ibarra Real Nova", serif; 
+  font-style: italic; 
 }
 
 //----------------------------------------------

@@ -1,0 +1,12 @@
+//----------------------------------------------   
+// Family: Work Sans
+//  
+// Regular: 400
+// Bold: 700
+//----------------------------------------------
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
