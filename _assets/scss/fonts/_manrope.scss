@@ -1,0 +1,54 @@
+//----------------------------------------------   
+// Family: Manrope
+//  
+// Regular: 400
+// Bold: 700
+//----------------------------------------------
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: light;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Manrope-Light') format("woff2");
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Manrope-Regular') format("woff2");
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style:  medium;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Manrope-Medium') format("woff2");
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style:  semibold;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Manrope-SemiBold') format("woff2");
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style:  bold;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Manrope-Bold') format("woff2");
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style:  extrabold;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Manrope-ExtraBold') format("woff2");
+}

@@ -26,7 +26,12 @@ cat = {
                 "date": datetime.datetime(2013, 5, 18),
                 "venue": "Palácio Nacional da Ajuda, Lisboa",
                 "ensemble": "Carolina Sá (sop), Bárbara Santos (pf)"
-            }
+            },
+            2: {
+                "date": datetime.datetime(2013, 5, 3),
+                "venue": "Grande Auditório da Escola Superior de Música de Lisboa",
+                "ensemble": "Carolina Sá (sop), Fernando Loura (pf)"
+            },
         }
     },
     2: {
@@ -39,7 +44,23 @@ cat = {
             1: {
                 "date": datetime.datetime(2013, 6, 5),
                 "venue": "Escola Superior de Música de Lisboa",
-            }
+                "solo": "Raquel Merrelho"
+            },
+            2: {
+                "date": datetime.datetime(2013, 6, 7),
+                "venue": "Escola Superior de Música de Lisboa",
+                "solo": "Paulo Cepêda"
+            },
+            3: {
+                "date": datetime.datetime(2013, 6, 28),
+                "venue": "Escola Superior de Música de Lisboa",
+                "solo": "Raquel Merrelho"
+            },
+            4: {
+                "date": datetime.datetime(2015, 5, 19),
+                "venue": "Grande Auditório da Escola Superior de Música de Lisboa",
+                "solo": "Raquel Merrelho"
+            },
         }
     },
     3: {
@@ -89,7 +110,19 @@ cat = {
                 "venue": "Fórum Luísa Todi, Setúbal",
                 "ensemble": "Setúbal Youth Ensemble",
                 "cond": "Rui Borges Maia"
-            }
+            },
+            2: {
+                "date": datetime.datetime(2015, 6, 7),
+                "venue": "Cine-Teatro S. João, Palmela",
+                "ensemble": "Setúbal Youth Ensemble",
+                "cond": "Rui Borges Maia"
+            },
+            3: {
+                "date": datetime.datetime(2015, 10, 1),
+                "venue": "Auditório 2 da Fundação Calouste Gulbenkian, Lisboa",
+                "ensemble": "Setúbal Youth Ensemble",
+                "cond": "Rui Borges Maia"
+            },
         }
     },
     6: {
@@ -105,7 +138,13 @@ cat = {
             1: {
                 "date": datetime.datetime(2016, 6, 28),
                 "venue": "Salão Nobre do Conservatório Nacional, Lisboa",
-            }
+                "PJM": 'Isabel Romero, Pedro Patrocínio Borges, Rodrigo Ayala, Alexandru Stratila, Luís Cardoso Arede, Vasco Dantas Rocha, Diogo da Costa Simões, Tiago Rosário'
+            },
+            2: {
+                "date": datetime.datetime(2019, 12, 7),
+                "venue": "Kammermusiksaal, Hochschule für Musik, Theater und Medien Hannover",
+                "solo": 'Leonie Kruppa'
+            },
         }
     },
     7: {
