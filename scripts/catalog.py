@@ -1,18 +1,6 @@
-#!/usr/bin/python
-# coding=utf-8
 import datetime
 import operator
-
-#generate works.html file for the site, overwriting
-f = open("/Users/LSalgueiro/Documents/GitHub/lsalgueiro.github.io/works.html",
-         "w")
-jekyllheader = '''---
-layout: notitle
-title: works
-image: /assets/images/placeholder-22.jpg
----
-'''
-f.write(jekyllheader)
+import re
 
 cat = {
     1: {
@@ -29,7 +17,8 @@ cat = {
             },
             2: {
                 "date": datetime.datetime(2013, 5, 3),
-                "venue": "Grande Auditório da Escola Superior de Música de Lisboa",
+                "venue":
+                "Grande Auditório da Escola Superior de Música de Lisboa",
                 "ensemble": "Carolina Sá (sop), Fernando Loura (pf)"
             },
         }
@@ -58,7 +47,8 @@ cat = {
             },
             4: {
                 "date": datetime.datetime(2015, 5, 19),
-                "venue": "Grande Auditório da Escola Superior de Música de Lisboa",
+                "venue":
+                "Grande Auditório da Escola Superior de Música de Lisboa",
                 "solo": "Raquel Merrelho"
             },
         }
@@ -136,13 +126,17 @@ cat = {
         "inst": "piano",
         "perf": {
             1: {
-                "date": datetime.datetime(2016, 6, 28),
-                "venue": "Salão Nobre do Conservatório Nacional, Lisboa",
-                "PJM": 'Isabel Romero, Pedro Patrocínio Borges, Rodrigo Ayala, Alexandru Stratila, Luís Cardoso Arede, Vasco Dantas Rocha, Diogo da Costa Simões, Tiago Rosário'
+                "date":
+                datetime.datetime(2016, 6, 28),
+                "venue":
+                "Salão Nobre do Conservatório Nacional, Lisboa",
+                "PJM":
+                'Isabel Romero, Pedro Patrocínio Borges, Rodrigo Ayala, Alexandru Stratila, Luís Cardoso Arede, Vasco Dantas Rocha, Diogo da Costa Simões, Tiago Rosário'
             },
             2: {
                 "date": datetime.datetime(2019, 12, 7),
-                "venue": "Kammermusiksaal, Hochschule für Musik, Theater und Medien Hannover",
+                "venue":
+                "Kammermusiksaal, Hochschule für Musik, Theater und Medien Hannover",
                 "solo": 'Leonie Kruppa'
             },
         }
@@ -240,59 +234,86 @@ cat = {
     }
 }
 
-oldyear = 0
-index = max(cat, key=cat.get)
 
-# sort by year
-order = {}
-for key in cat:
-    order[key] = cat[key]['year']
-byYear = reversed(sorted(order.items(), key=lambda kv: (kv[1], kv[0])))
+def site_index():
+    #generate works.html file for the site, overwriting
+    f = open(
+        "/Users/LSalgueiro/Documents/GitHub/lsalgueiro.github.io/works.html",
+        "w")
+    jekyllheader = '''---\nlayout: notitle\ntitle: works\nimage: /assets/images/placeholder-22.jpg\n---
+    '''
+    f.write(jekyllheader)
+
+    oldyear = 0
+    index = len(cat)
+
+    # sort by year
+    order = {}
+    for key in cat:
+        order[key] = cat[key]['year']
+    byYear = reversed(sorted(order.items(), key=lambda kv: (kv[1], kv[0])))
+
+    for i in byYear:
+        index = i[0]
+
+        if cat[index]["year"] != oldyear:
+            year = '<h1>' + str(cat[index]["year"]) + '</h1>'
+            f.write(year)
+            oldyear = cat[index]["year"]
+        else:
+            pass
+
+        piece = ('<div class="piece"><works>'
+                 '<h6>' + cat[index]["title"] + '</h6>'
+                 '<p>for ' + cat[index]["inst"] + '</p>'
+                 '<p>dur. ca. ' + str(cat[index]["dur"]) + "\'</p>")
+        f.write(piece)
+
+        if 'comm' in cat[index]:
+            f.write('<p>Commissioned by ' + cat[index]["comm"] + '</p>')
+        else:
+            pass
+
+        if 'award' in cat[index]:
+            f.write('<p>' + cat[index]["award"] + '<p>')
+        else:
+            pass
+
+        if 'perf' in cat[index]:
+            f.write(('<p>Premiered ' +
+                     (cat[index]["perf"][1]["date"].strftime("%d/%m/%Y")) +
+                     ', ' + cat[index]["perf"][1]["venue"] + '</p>'))
+            if 'ensemble' in cat[index]["perf"][1]:
+                f.write('<p>' + cat[index]["perf"][1]["ensemble"])
+                if 'cond' in cat[index]["perf"][1]:
+                    f.write(', cond. ' + cat[index]["perf"][1]["cond"])
+                f.write('</p>')
+            if 'solo' in cat[index]["perf"][1]:
+                f.write('<p>' + cat[index]["perf"][1]["solo"] + '</p>')
+        else:
+            pass
+
+        close = ('</works>' '</div>')
+        f.write(close)
+
+    f.close()
+
+    pass
+
+def work_page(key):
+    title = cat[key]['title']
+    to_lowercase = title.lower()
+    strip_special_chars = re.sub('[^a-zA-Z.\d\s]', '', to_lowercase)
+    strip_spaces = strip_special_chars.replace(' ', '-')
+    filename = strip_spaces
+    
+    with open(f'./_works/{filename}.md', 'w') as new_file:
+        title = cat[key]['title']
+        inst = cat[key]['inst']
+        work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\n#image: /assets/images/placeholder-2.jpg\n---'''
+        print(work_header)
+        new_file.write(work_header)
 
 
-for i in byYear:
-    index = i[0]
-
-    if cat[index]["year"] != oldyear:
-        year = '<h1>' + str(cat[index]["year"]) + '</h1>'
-        f.write(year)
-        oldyear = cat[index]["year"]
-    else:
-        pass
-
-    piece = ('<div class="piece"><works>'
-             '<h6>' + cat[index]["title"] + '</h6>'
-             '<p>for ' + cat[index]["inst"] + '</p>'
-             '<p>dur. ca. ' + str(cat[index]["dur"]) + "\'</p>")
-    f.write(piece)
-
-    if 'comm' in cat[index]:
-        f.write('<p>Commissioned by ' + cat[index]["comm"] + '</p>')
-    else:
-        pass
-
-    if 'award' in cat[index]:
-        f.write('<p>' + cat[index]["award"] + '<p>')
-    else:
-        pass
-
-    if 'perf' in cat[index]:
-        f.write(('<p>Premiered ' +
-                 (cat[index]["perf"][1]["date"].strftime("%d/%m/%Y")) + ', ' +
-                 cat[index]["perf"][1]["venue"] + '</p>'))
-        if 'ensemble' in cat[index]["perf"][1]:
-            f.write('<p>' + cat[index]["perf"][1]["ensemble"])
-            if 'cond' in cat[index]["perf"][1]:
-                f.write(', cond. ' + cat[index]["perf"][1]["cond"])
-            f.write('</p>')
-        if 'solo' in cat[index]["perf"][1]:
-            f.write('<p>' + cat[index]["perf"][1]["solo"] + '</p>')
-    else:
-        pass
-
-    close = ('</works>' '</div>')
-    f.write(close)
-
-#im running this from the shell, which doesn't have python 3.x installed, so using concatenation instead of fstrings…
-
-f.close()
+#site_index()
+work_page(11)

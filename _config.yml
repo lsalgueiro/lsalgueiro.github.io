@@ -39,6 +39,11 @@ author:
     bio: Luís Salgueiro is a composer of instrumental, electronic and mixed music that draws from and pushes against discontinuities in timbres, time scales, embodied cognition.
     #url: http://thomasvaeth.com
 
+# Custom collections
+collections:
+  works:
+    output: true
+
 # Pagination settings
 pagination:
   enabled: true
@@ -83,3 +88,4 @@ exclude:
   - package.json
   - README.md
   - works/catalog.py
+  - scripts

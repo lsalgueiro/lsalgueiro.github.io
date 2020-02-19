@@ -5,6 +5,14 @@
 <lastmod>2017-10-23T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/works/lenvie-de-rire.html</loc>
+<lastmod>2020-02-19T22:47:32+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/works/lenvie.html</loc>
+<lastmod>2020-02-19T22:47:32+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/404</loc>
 </url>
 <url>
@@ -15,9 +23,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/subscribe.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/scripts/works%20-%20c%C3%B3pia.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/works.html</loc>
