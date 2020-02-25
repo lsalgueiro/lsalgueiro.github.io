@@ -19,6 +19,10 @@ layout: default
 
     <div class="post__content section-padding">
       <div class="grid">
+        {% if page.soundcloud %}
+        <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay"
+          src={{ page.soundcloud }}></iframe>
+        {% endif %}
         <div id="markdown" itemprop="articleBody">
           {{content}}
         </div>

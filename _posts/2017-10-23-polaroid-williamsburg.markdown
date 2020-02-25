@@ -3,7 +3,8 @@ layout: post
 title: "L'envie de rire"
 date: 2017-10-23
 description: 
-image: /assets/images/placeholder-19.jpg
+#image: /assets/images/placeholder-19.jpg
+image: /assets/images/image-duotone.jpg
 author: Thomas Vaeth
 tags: 
   - Dummy Text

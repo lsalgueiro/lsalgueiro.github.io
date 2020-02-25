@@ -139,7 +139,8 @@ cat = {
                 "Kammermusiksaal, Hochschule für Musik, Theater und Medien Hannover",
                 "solo": 'Leonie Kruppa'
             },
-        }
+        },
+        "soundcloud": 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348574893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
     },
     7: {
         "title": "prelúdio, coral e fuga",
@@ -154,7 +155,8 @@ cat = {
                 "venue": "Escola Superior de Música de Lisboa",
                 "ensemble": "Duarte Pereira Martins and Philippe Marques, pf"
             }
-        }
+        },
+        "soundcloud": '"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/538870590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
     },
     8: {
         "title": "bokeh",
@@ -310,10 +312,11 @@ def work_page(key):
     with open(f'./_works/{filename}.md', 'w') as new_file:
         title = cat[key]['title']
         inst = cat[key]['inst']
-        work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\n#image: /assets/images/placeholder-2.jpg\n---'''
+        soundcloud = cat[key]['soundcloud']
+        work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\n#image: /assets/images/placeholder-2.jpg\nsoundcloud: {soundcloud}\n---'''
         print(work_header)
         new_file.write(work_header)
 
 
 #site_index()
-work_page(11)
+work_page(6)
