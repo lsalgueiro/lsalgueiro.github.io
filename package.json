@@ -30,7 +30,8 @@
     "bl": "^4.0.3",
     "jquery": "^3.5.0",
     "salvattore": "^1.0.9",
-    "url-parse": "^1.4.7"
+    "url-parse": "^1.4.7",
+    "yargs-parser": "^20.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
