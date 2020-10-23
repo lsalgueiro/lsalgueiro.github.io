@@ -1,5 +1,5 @@
 # Site/SEO settings
-#email: okay@samesies.io
+email: luisgsalgueiro@gmail.com
 #baseurl: ""
 permalink: /:year/:title/
 google_analytics: 
@@ -18,8 +18,8 @@ social:
     url: https://soundcloud.com/l-salgueiro
   - name: github
     url: https://github.com/lsalgueiro
-  - #name: instagram
-    #url: https://www.instagram.com/luissalgueiro/
+  - name: instagram
+    url: https://www.instagram.com/luissalgueiro/
 
 
 # Contact settings
@@ -87,5 +87,4 @@ exclude:
   - gulpfile.js
   - package.json
   - README.md
-  - works/catalog.py
   - scripts

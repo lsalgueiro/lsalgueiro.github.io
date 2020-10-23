@@ -6,9 +6,26 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Feb 2020 22:45:06 +0100</pubDate>
-    <lastBuildDate>Tue, 25 Feb 2020 22:45:06 +0100</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2020 14:46:33 +0100</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2020 14:46:33 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Inside-In</title>
+        <description>&lt;p&gt;Post about Inside-In feature.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2020/Inside-In/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Inside-In/</guid>
+        
+        <category>Dummy Text</category>
+        
+        <category>Moon Drinking</category>
+        
+        <category>Kale</category>
+        
+        
+      </item>
     
       <item>
         <title>L'envie de rire</title>
@@ -47,7 +64,7 @@
 
 &lt;p&gt;Pinterest cold-pressed selfies man bun twee williamsburg irony, art party snackwave tumeric knausgaard marfa polaroid chambray. PBR&amp;amp;B semiotics selvage brooklyn hexagon cray. Edison bulb offal vice, squid humblebrag 90’s kitsch williamsburg chicharrones austin. Poke 3 wolf moon selfies banh mi farm-to-table raclette. +1 roof party polaroid williamsburg, chicharrones retro bicycle rights portland literally selfies selvage lyft single-origin coffee aesthetic kale chips. Blog yr la croix four loko beard. Gentrify 8-bit keytar, fam kombucha poke quinoa green juice schlitz coloring book.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 23 Oct 2017 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2017/polaroid-williamsburg/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/polaroid-williamsburg/</guid>
         

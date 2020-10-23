@@ -312,8 +312,27 @@ def work_page(key):
     with open(f'./_works/{filename}.md', 'w') as new_file:
         title = cat[key]['title']
         inst = cat[key]['inst']
+        dur = cat[key]['dur']
         soundcloud = cat[key]['soundcloud']
-        work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\n#image: /assets/images/placeholder-2.jpg\nsoundcloud: {soundcloud}\n---'''
+        
+        opt = ''
+        if 'comm' in cat[key]:
+            opt += 'comm: ' + cat[key]['comm']
+        else:
+            pass
+        
+        if 'perf' in cat[key]:
+            opt += '\nprem: ' + cat[key]['perf'][1]['date'].strftime("%d/%m/%Y") + ', ' + cat[key]['perf'][1]['venue']
+            if 'ensemble' in cat[key]["perf"][1]:
+                opt += cat[key]["perf"][1]["ensemble"]
+                if 'cond' in cat[key]["perf"][1]:
+                    opt += ', cond. ' + cat[key]["perf"][1]["cond"]
+            if 'solo' in cat[key]["perf"][1]:
+                opt += cat[key]["perf"][1]["solo"]
+        else:
+            pass
+        
+        work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\ndur: {dur}\n#image: /assets/images/placeholder-2.jpg\nsoundcloud: {soundcloud}\n{opt}\n---'''
         print(work_header)
         new_file.write(work_header)
 

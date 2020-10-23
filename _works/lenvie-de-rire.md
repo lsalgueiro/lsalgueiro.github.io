@@ -2,7 +2,7 @@
 layout: work
 title: L'envie de rire
 inst: for soprano and orchestra
-image: /assets/images/image-duotone.jpg
+#image: /assets/images/lenvie.jpg
 ---
 <epigraph><p>In Greek the act of love is a mingling (<i>mignumi</i>) and desire melts the limbs (<i>lusimelēs</i> [...]). Boundaries of body, categories of thought, are confounded.</p>
 <cite>Anne Carson, <i>Eros the bittersweet</i></cite></epigraph>

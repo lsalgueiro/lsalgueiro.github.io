@@ -1,0 +1,22 @@
+//----------------------------------------------   
+// Family: Object Sans
+//  
+// Regular: 400
+// Bold: 700
+//----------------------------------------------
+
+@font-face {
+  font-family: 'Object Sans';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('ObjectSans-Regular') format("woff2");
+}
+
+@font-face {
+  font-family: 'Object Sans';
+  font-style:  bold;
+  font-weight: 700;
+  font-display: swap;
+  src: local('ObjectSans-Bold') format("woff2");
+}
