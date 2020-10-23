@@ -6,73 +6,204 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Oct 2020 19:58:42 +0100</pubDate>
-    <lastBuildDate>Fri, 23 Oct 2020 19:58:42 +0100</lastBuildDate>
+    <pubDate>Sat, 24 Oct 2020 00:16:09 +0100</pubDate>
+    <lastBuildDate>Sat, 24 Oct 2020 00:16:09 +0100</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
-        <title>Inside-In</title>
-        <description>&lt;p&gt;Post about Inside-In feature.&lt;/p&gt;
+        <title>Glosas pela música portuguesa @ Lusophonica</title>
+        <description>&lt;p&gt;I’ve had the pleasure of putting together the second episode of &lt;em&gt;Glosas pela música portuguesa&lt;/em&gt;, a live radio show produced by &lt;a href=&quot;www.mpmp.pt&quot;&gt;&lt;strong&gt;mpmp&lt;/strong&gt;&lt;/a&gt; for &lt;a href=&quot;https://www.lusophonica.com/&quot;&gt;Lusophonica&lt;/a&gt;. Presented live out of their booth in Cascais, my set consisted of two hours of some of the most interesting music composed and improvised these last few years, as well as some hopefully delightful and enticing bridges to music that’s (let’s call it) a bit less contemporary.&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/CEhEr8IpdEM/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CEhEr8IpdEM/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; Ver esta publicação no Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CEhEr8IpdEM/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;cascais 200830&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Uma publicação partilhada por &lt;a href=&quot;https://www.instagram.com/luissalgueiro/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;&quot; target=&quot;_blank&quot;&gt; Luis Salgueiro&lt;/a&gt; (@luissalgueiro) a &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2020-08-30T14:26:56+00:00&quot;&gt;30 de Ago, 2020 às 7:26 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;You can watch the full show &lt;a href=&quot;https://vimeo.com/452993730&quot;&gt;here&lt;/a&gt;. I leave you with the full setlist below:&lt;/p&gt;
+
+&lt;h6 id=&quot;joão-barradas&quot;&gt;João Barradas&lt;/h6&gt;
+
+&lt;p&gt;Solo, Pt. I (Live)&lt;br /&gt;
+do álbum &lt;a href=&quot;https://nischo.com/portfolio-items/joao-barradas-solo/&quot;&gt;&lt;em&gt;Solo I (Live at Centro Cultural de Belém)&lt;/em&gt;&lt;/a&gt; (2019)&lt;br /&gt;
+ed. Nischo / Inner Circle Music&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://nischo.com/wp-content/uploads/2020/02/Capa-Solo-I_800x800.png&quot; alt=&quot;Solo I (Live at Centro Cultural de Belém)&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;joão-castro-pinto&quot;&gt;João Castro Pinto&lt;/h6&gt;
+
+&lt;p&gt;sonotope V.&lt;br /&gt;
+do álbum &lt;em&gt;&lt;a href=&quot;https://unfathomless.bandcamp.com/album/suntria-imaginal-sonotopes&quot;&gt;Suntria - imaginal sonotopes&lt;/a&gt;&lt;/em&gt; (2017)&lt;br /&gt;
+ed. Unfathomless&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://f4.bcbits.com/img/a2240485197_10.jpg&quot; alt=&quot;Suntria - imaginal sonotopes&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;alexandre-rey-colaço&quot;&gt;Alexandre Rey Colaço&lt;/h6&gt;
+
+&lt;p&gt;Fado 8&lt;/p&gt;
+
+&lt;h6 id=&quot;dead-combo&quot;&gt;Dead Combo&lt;/h6&gt;
+
+&lt;p&gt;Faduncho&lt;br /&gt;
+do álbum &lt;em&gt;Odeon Hotel&lt;/em&gt; (2018)&lt;br /&gt;
+ed. Sony Music&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.discogs.com/tqJDe7CsDgbU1KwYGzEeU6FmtB8=/fit-in/600x541/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-11857373-1523628668-1534.jpeg.jpg&quot; alt=&quot;Odeon Hotel&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;joão-castro-pinto-1&quot;&gt;João Castro Pinto&lt;/h6&gt;
+
+&lt;p&gt;sonotope IV.&lt;br /&gt;
+do álbum &lt;em&gt;&lt;a href=&quot;https://unfathomless.bandcamp.com/album/suntria-imaginal-sonotopes&quot;&gt;Suntria - imaginal sonotopes&lt;/a&gt;&lt;/em&gt; (2017)&lt;br /&gt;
+ed. Unfathomless&lt;/p&gt;
+
+&lt;h6 id=&quot;joão-barradas-1&quot;&gt;João Barradas&lt;/h6&gt;
+
+&lt;p&gt;Solo, Pt. IV (Live)&lt;br /&gt;
+do álbum &lt;em&gt;Solo I (Live at Centro Cultural de Belém)&lt;/em&gt;  (2019)
+ed. Nischo / Inner Circle Music&lt;/p&gt;
+
+&lt;h6 id=&quot;cândido-lima&quot;&gt;Cândido Lima&lt;/h6&gt;
+
+&lt;p&gt;Gestus-Circus-Círculos (2001)&lt;br /&gt;
+do álbum &lt;em&gt;&lt;a href=&quot;http://mpmp.pt/produto/candido-lima-oceanides/&quot;&gt;Oceânides&lt;/a&gt;&lt;/em&gt;  (2016)
+ed. mpmp (Melographia portugueza 11)&lt;br /&gt;
+Sond’Ar-te Electric Ensemble e Ensemble Aleph, dir. Pedro Amaral&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mpmp.pt/wp-content/uploads/2015/11/melographia-11.jpg&quot; alt=&quot;Oceânides&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;gabriel-ferrandini&quot;&gt;Gabriel Ferrandini&lt;/h6&gt;
+
+&lt;p&gt;Rua da Academia das Ciências&lt;br /&gt;
+do álbum &lt;em&gt;&lt;a href=&quot;https://cleanfeed-records.com/product/volupias/&quot;&gt;Volúpias&lt;/a&gt;&lt;/em&gt; (2019)&lt;br /&gt;
+ed. Clean Feed&lt;/p&gt;
+
+&lt;p&gt;Gabriel Ferrandini (ds)&lt;br /&gt;
+Hernâni Faustino (db)&lt;br /&gt;
+Pedro Sousa (ts)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cleanfeed-records.com/wp-content/uploads/2019/05/cf523cd-600.jpg&quot; alt=&quot;Volúpias&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;dead-combo-1&quot;&gt;Dead Combo&lt;/h6&gt;
+
+&lt;p&gt;Esse olhar que era só teu &lt;br /&gt;
+do álbum &lt;em&gt;Lisboa Mulata&lt;/em&gt; (2011)&lt;br /&gt;
+ed. Rastilho Records&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.music-bazaar.com/album-images/vol9/492/492789/2326114-big/Lisboa-Mulata-cover.jpg&quot; alt=&quot;Lisboa Mulata&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;gabriel-ferrandini-1&quot;&gt;Gabriel Ferrandini&lt;/h6&gt;
+
+&lt;p&gt;Travessa dos Fiéis de Deus&lt;br /&gt;
+do álbum &lt;em&gt;&lt;a href=&quot;https://cleanfeed-records.com/product/volupias/&quot;&gt;Volúpias&lt;/a&gt;&lt;/em&gt; (2019)&lt;br /&gt;
+ed. Clean Feed&lt;/p&gt;
+
+&lt;p&gt;Gabriel Ferrandini (ds)&lt;br /&gt;
+Hernâni Faustino (db)&lt;br /&gt;
+Pedro Sousa (ts)&lt;/p&gt;
+
+&lt;h6 id=&quot;alexandre-rey-colaço-1&quot;&gt;Alexandre Rey Colaço&lt;/h6&gt;
+
+&lt;p&gt;Fado n.º 9&lt;/p&gt;
+
+&lt;h6 id=&quot;andreia-pinto-correia&quot;&gt;Andreia Pinto Correia&lt;/h6&gt;
+
+&lt;p&gt;String Quartet No. 1, “&lt;em&gt;Unvanquished Space”&lt;/em&gt; (2017)&lt;br /&gt;
+I. A Labyrinth Submersed – &lt;em&gt;to Jay&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;JACK Quartet&lt;br /&gt;
+Christopher Otto e Austin Wulliman, vln&lt;br /&gt;
+John Pickford Richards, vla&lt;br /&gt;
+Jay Campbell, vlc&lt;br /&gt;
+12/07/2018 at Voxman Music Building Concert Hall, University of Iowa&lt;/p&gt;
+
+&lt;p&gt;Encomenda da Fundação Calouste Gulbenkian&lt;br /&gt;
+Gravação gentilmente cedida pela compositora e pelos intérpretes.&lt;/p&gt;
+
+&lt;h6 id=&quot;gabriel-ferrandini-2&quot;&gt;Gabriel Ferrandini&lt;/h6&gt;
+
+&lt;p&gt;Rua da Barroca&lt;br /&gt;
+do álbum &lt;em&gt;&lt;a href=&quot;https://cleanfeed-records.com/product/volupias/&quot;&gt;Volúpias&lt;/a&gt;&lt;/em&gt; (2019)&lt;br /&gt;
+ed. Clean Feed&lt;/p&gt;
+
+&lt;p&gt;Gabriel Ferrandini (ds)&lt;br /&gt;
+Hernâni Faustino (db)&lt;br /&gt;
+Pedro Sousa (ts)&lt;/p&gt;
+
+&lt;h6 id=&quot;andreia-pinto-correia-1&quot;&gt;Andreia Pinto Correia&lt;/h6&gt;
+
+&lt;p&gt;String Quartet No. 1, “&lt;em&gt;Unvanquished Space”&lt;/em&gt; (2017)&lt;br /&gt;
+II. The Gleaming Cantos of Unvanquished Space – &lt;em&gt;to John&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;JACK Quartet&lt;br /&gt;
+Christopher Otto e Austin Wulliman, vln&lt;br /&gt;
+John Pickford Richards, vla&lt;br /&gt;
+Jay Campbell, vlc&lt;br /&gt;
+12/07/2018 at Voxman Music Building Concert Hall, University of Iowa&lt;/p&gt;
+
+&lt;h6 id=&quot;duarte-lobo&quot;&gt;Duarte Lobo&lt;/h6&gt;
+
+&lt;p&gt;Missa &lt;em&gt;Dum aurora (Liber II missarum.&lt;/em&gt; Plantin, Antuérpia, 1639)&lt;br /&gt;
+Agnus Dei (a 4 &amp;amp; 6)&lt;/p&gt;
+
+&lt;p&gt;Graindelavoix, dir. Björn Schmelzer&lt;br /&gt;
+Anne-Kathryn Olsen, Alice Kamenezky, Razek-François Bitar, Albert Riera, Andrés Miravete, Marius Peterson, Adrian Sîrbu, Arnout Malfliet, Joachim Höchbauer&lt;/p&gt;
+
+&lt;p&gt;do álbum &lt;em&gt;&lt;a href=&quot;http://www.glossamusic.com/glossa/reference.aspx?id=424&quot;&gt;Orazio Vecchi Requiem&lt;/a&gt;&lt;/em&gt; (2017)&lt;br /&gt;
+ed. Glossa&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.glossamusic.com/glossa/files/References/424/GCD_P32113_front_HD.jpg&quot; alt=&quot;Orazio Vecchi Requiem&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;andreia-pinto-correia-2&quot;&gt;Andreia Pinto Correia&lt;/h6&gt;
+
+&lt;p&gt;String Quartet No. 1, “&lt;em&gt;Unvanquished Space”&lt;/em&gt; (2017)&lt;br /&gt;
+III. Peripheries of Light – &lt;em&gt;to Austin&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;JACK Quartet&lt;br /&gt;
+Christopher Otto e Austin Wulliman, vln&lt;br /&gt;
+John Pickford Richards, vla&lt;br /&gt;
+Jay Campbell, vlc&lt;br /&gt;
+12/07/2018 at Voxman Music Building Concert Hall, University of Iowa&lt;/p&gt;
+
+&lt;h6 id=&quot;joão-castro-pinto-2&quot;&gt;João Castro Pinto&lt;/h6&gt;
+
+&lt;p&gt;sonotope VI.&lt;br /&gt;
+do álbum &lt;em&gt;&lt;a href=&quot;https://unfathomless.bandcamp.com/album/suntria-imaginal-sonotopes&quot;&gt;Suntria - imaginal sonotopes&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;
+ed. Unfathomless&lt;/p&gt;
+
+&lt;h6 id=&quot;andreia-pinto-correia-3&quot;&gt;Andreia Pinto Correia&lt;/h6&gt;
+
+&lt;p&gt;String Quartet No. 1, “&lt;em&gt;Unvanquished Space”&lt;/em&gt; (2017)&lt;br /&gt;
+IV. Into Silence – &lt;em&gt;to Christopher&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;JACK Quartet&lt;br /&gt;
+Christopher Otto e Austin Wulliman, vln&lt;br /&gt;
+John Pickford Richards, vla&lt;br /&gt;
+Jay Campbell, vlc&lt;br /&gt;
+12/07/2018 at Voxman Music Building Concert Hall, University of Iowa&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/CEjQ5rtJFhX/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CEjQ5rtJFhX/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; Ver esta publicação no Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CEjQ5rtJFhX/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;cascais 200830 @ Lusophonica&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Uma publicação partilhada por &lt;a href=&quot;https://www.instagram.com/luissalgueiro/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;&quot; target=&quot;_blank&quot;&gt; Luis Salgueiro&lt;/a&gt; (@luissalgueiro) a &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2020-08-31T10:52:09+00:00&quot;&gt;31 de Ago, 2020 às 3:52 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+
 </description>
-        <pubDate>Tue, 23 Jun 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/Inside-In/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Inside-In/</guid>
-        
-        <category>Dummy Text</category>
-        
-        <category>Moon Drinking</category>
-        
-        <category>Kale</category>
+        <pubDate>Sun, 30 Aug 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2020/lusophonica/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/lusophonica/</guid>
         
         
       </item>
     
       <item>
-        <title>L'envie de rire</title>
-        <description>&lt;p&gt;Etsy squid occupy pop-up. Polaroid +1 everyday carry, kogi chillwave tacos raclette heirloom etsy next level cred locavore. Blog street art DIY, pug crucifix asymmetrical chicharrones. Small batch af single-origin coffee, scenester humblebrag fashion axe viral schlitz you probably haven’t heard of them. Kickstarter synth poutine brunch hoodie. Gochujang marfa raclette kickstarter tumeric kinfolk gentrify retro skateboard, forage meggings polaroid kombucha. Tilde mlkshk fam meggings.&lt;/p&gt;
+        <title>Princeza dos sapatos de ferro</title>
+        <description>&lt;p&gt;I flew back to Lisbon just in time to make it to the recording sessions of my reduction-slash-arrangement of Ruy Coelho’s ballet, &lt;em&gt;A princeza dos sapatos de ferro&lt;/em&gt;, commissioned and played four-handed by the always phenomenal Philippe Marques and Duarte Pereira Martins. The recording will be released in the duo’s next album, alongside music from Stravinsky, Ravel and Fernando Lopes-Graça.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.&lt;/li&gt;
-  &lt;li&gt;Church-key crucifix messenger bag health goth&lt;/li&gt;
-  &lt;li&gt;Try-hard artisan direct trade&lt;/li&gt;
-  &lt;li&gt;Cold-pressed selfies&lt;/li&gt;
-&lt;/ul&gt;
+&lt;iframe src=&quot;https://www.instagram.com/p/CDB8324poR3/embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.&lt;/li&gt;
-  &lt;li&gt;Church-key crucifix messenger bag health goth&lt;/li&gt;
-  &lt;li&gt;Try-hard artisan direct trade&lt;/li&gt;
-  &lt;li&gt;Cold-pressed selfies&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;They posted a teaser in the run-up to their string of concerts and subsequent recording session:&lt;/p&gt;
 
-&lt;h3 id=&quot;subway-tile&quot;&gt;Subway tile&lt;/h3&gt;
-&lt;p&gt;Knausgaard readymade williamsburg tote bag taxidermy, DIY meditation copper mug. Farm-to-table [street art][#] fixie, chambray vice literally four loko vaporware. Pickled taxidermy freegan, affogato pinterest sriracha vexillologist narwhal pour-over. Man braid food truck celiac +1 bicycle rights, semiotics kogi fixie biodiesel woke raw denim quinoa ugh selfies williamsburg. Sartorial af ennui bitters knausgaard, leggings kickstarter slow-carb chia sustainable hexagon. Prism 3 wolf moon occupy ramps wayfarers tumblr narwhal 90’s. Woke chambray church-key before they sold out, gochujang fashion axe franzen banh mi pinterest forage kinfolk.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/placeholder-2.jpg&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry. Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Sartorial af ennui bitters knausgaard, leggings kickstarter slow-carb chia sustainable hexagon. Prism 3 wolf moon occupy ramps wayfarers tumblr narwhal 90’s.
-&lt;cite&gt;Man braid&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;subway-tile-1&quot;&gt;Subway tile&lt;/h4&gt;
-&lt;p&gt;Slow-carb cornhole crucifix thundercats intelligentsia. Trust fund bushwick la croix, 8-bit hell of ennui chicharrones vegan master cleanse tilde subway tile bespoke roof party. Next level celiac bushwick coloring book subway tile. Lyft knausgaard four loko, twee sustainable narwhal letterpress PBR&amp;amp;B kombucha paleo mixtape helvetica. Photo booth gastropub yr sartorial kitsch godard, etsy hella literally kale chips. Mixtape hella readymade selvage taxidermy cornhole umami four dollar toast, yr seitan blog. Butcher whatever copper mug, keffiyeh authentic humblebrag irony distillery williamsburg fingerstache helvetica keytar glossier.&lt;/p&gt;
-
-&lt;p&gt;Gluten-free la croix activated charcoal tousled, brunch semiotics sartorial mustache hashtag. Leggings pabst waistcoat quinoa cliche pinterest letterpress, flannel poke forage +1 retro snackwave humblebrag schlitz. Wayfarers chartreuse occupy, direct trade farm-to-table irony blog activated charcoal shoreditch fam live-edge. Intelligentsia scenester gochujang gentrify portland offal. Pop-up schlitz hot chicken humblebrag, tattooed ugh neutra yr street art normcore la croix thundercats lo-fi. Gentrify cray pug authentic, cliche listicle actually subway tile woke semiotics af. Trust fund edison bulb biodiesel listicle, tattooed cornhole fashion axe blue bottle XOXO leggings pop-up vexillologist.&lt;/p&gt;
-
-&lt;p&gt;Pinterest cold-pressed selfies man bun twee williamsburg irony, art party snackwave tumeric knausgaard marfa polaroid chambray. PBR&amp;amp;B semiotics selvage brooklyn hexagon cray. Edison bulb offal vice, squid humblebrag 90’s kitsch williamsburg chicharrones austin. Poke 3 wolf moon selfies banh mi farm-to-table raclette. +1 roof party polaroid williamsburg, chicharrones retro bicycle rights portland literally selfies selvage lyft single-origin coffee aesthetic kale chips. Blog yr la croix four loko beard. Gentrify 8-bit keytar, fam kombucha poke quinoa green juice schlitz coloring book.&lt;/p&gt;
+&lt;iframe src=&quot;https://www.instagram.com/p/CCoigIdp8Jl/embed&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Mon, 23 Oct 2017 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2017/polaroid-williamsburg/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/polaroid-williamsburg/</guid>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2020/princeza/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/princeza/</guid>
         
-        <category>Dummy Text</category>
-        
-        <category>Moon Drinking</category>
-        
-        <category>Kale</category>
+        <category>Recordings</category>
         
         
       </item>

@@ -8,7 +8,7 @@ name: Luís Salgueiro
 title: Luís Salgueiro
 description: >
   Portfolio website for composer Luís Salgueiro.
-url: http://lsalgueiro.netlify.com
+url: http://lsalgueiro.netlify.app
 twitter_username: canoxa
 default_img: /assets/images/seo.jpg
 social:
@@ -23,7 +23,7 @@ social:
 
 
 # Contact settings
-contact_img: /assets/images/placeholder-28.jpg
+contact_img: /assets/images/DSCF3903.jpg
 formcarry: https://formcarry.com/s/k51zQwtMSrf2
 
 # Disqus settings
@@ -88,3 +88,4 @@ exclude:
   - package.json
   - README.md
   - scripts
+  - style-guide.html
