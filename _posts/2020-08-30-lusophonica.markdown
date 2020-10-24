@@ -3,7 +3,7 @@ layout: post
 title: "Glosas pela música portuguesa @ Lusophonica"
 date: 2020-08-30
 description: 
-#image: /assets/images/placeholder-19.jpg
+image: /assets/images/P1170398.jpg
 tags: 
 ---
 I've had the pleasure of putting together the second episode of _Glosas pela música portuguesa_, a live radio show produced by [__mpmp__](www.mpmp.pt) for [Lusophonica](https://www.lusophonica.com/). Presented live out of their booth in Cascais, my set consisted of two hours of some of the most interesting music composed and improvised these last few years, as well as some hopefully delightful and enticing bridges to music that's (let's call it) a bit less contemporary.
