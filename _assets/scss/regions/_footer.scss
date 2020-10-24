@@ -29,6 +29,7 @@
     font-size: $font-small;
     color: $color-white;
     transition: color 200ms ease-in-out;
+    text-align: center; // centering as I only have one link so far; if I ever redisign the footer and user a bottom nav, remove this line
 
     &:hover,
     &:active,

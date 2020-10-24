@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Oct 2020 00:16:09 +0100</pubDate>
-    <lastBuildDate>Sat, 24 Oct 2020 00:16:09 +0100</lastBuildDate>
+    <pubDate>Sat, 24 Oct 2020 16:16:43 +0100</pubDate>
+    <lastBuildDate>Sat, 24 Oct 2020 16:16:43 +0100</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -202,6 +202,27 @@ Jay Campbell, vlc&lt;br /&gt;
         <pubDate>Thu, 23 Jul 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2020/princeza/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/princeza/</guid>
+        
+        <category>Recordings</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Early Eckensee featured on 5:4's Outside-In</title>
+        <description>&lt;p&gt;I’m very happy to be one of twelve composers contributing towards &lt;em&gt;Outside-In&lt;/em&gt;, an album project by one of the internet’s most notable, most comprehensive voices in the field of contemporary music: Simon Cummings.&lt;/p&gt;
+
+&lt;p&gt;Simon pens &lt;a href=&quot;http://5against4.com/&quot;&gt;&lt;strong&gt;5:4&lt;/strong&gt;&lt;/a&gt; with the same curiosity he approaches his compositional as well as his research work. For over a decade, his writings have been a mainstay of (and an obligatory stop for) the contemporary music community online — not only through the old-school, long-form blog (which is invaluable), but also as an affable presence on Twitter.&lt;/p&gt;
+
+&lt;p&gt;As a response to the lockdowns imposed by the SARS-COVID-19 pandemic, &lt;em&gt;Outside-In&lt;/em&gt; compiles field recordings (collected all around) that “act as vivid reminders of, and virtual windows onto, the outside world” we were forced to peer onto exclusively from the inside of our hopefully disease-free homes.&lt;/p&gt;
+
+&lt;p&gt;The recording was captured in February. I found myself working a week in Stuttgart, and this came on the tail end of an intense period of work and travel — and it was, in fact, the last one since, as by that time Baden-Württemberg already registered cases of COVID-19 and the country would soon go into lockdown. But there and then, still free to roam and &lt;em&gt;wandern&lt;/em&gt;, I decided instead that the best use for the early morning was seating still, for a moment, and progressively wake up alongside and with the city.&lt;/p&gt;
+
+&lt;p&gt;Simon’s commentary about my track can be read in &lt;a href=&quot;http://5against4.com/2020/06/23/outside-in-luis-salgueiro/&quot;&gt;today’s blog post&lt;/a&gt;. The full album, now completed, can be &lt;a href=&quot;https://5against4.bandcamp.com/album/outside-in&quot;&gt;downloaded or streamed free of charge&lt;/a&gt; — but you’re free to make a contribution, if you wish. All proceeds made will be shared among the contributors. It is a pleasure to appear alongside such treasured and interesting composers, like Monty Adkins, Davíð Brynjar Franzson, as well as naturally Simon himself.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2020/Outside-In/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Outside-In/</guid>
         
         <category>Recordings</category>
         

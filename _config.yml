@@ -12,14 +12,14 @@ url: http://lsalgueiro.netlify.app
 twitter_username: canoxa
 default_img: /assets/images/DSCF3917.jpg
 social:
-  - name: twitter
-    url: https://twitter.com/canoxa
   - name: soundcloud
     url: https://soundcloud.com/l-salgueiro
-  - name: github
-    url: https://github.com/lsalgueiro
+  - name: twitter
+    url: https://twitter.com/canoxa
   - name: instagram
     url: https://www.instagram.com/luissalgueiro/
+  - name: github
+    url: https://github.com/lsalgueiro
 
 
 # Contact settings
