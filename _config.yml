@@ -48,7 +48,7 @@ collections:
 pagination:
   enabled: true
   debug: false
-  per_page: 12
+  per_page: 8
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
@@ -89,3 +89,4 @@ exclude:
   - README.md
   - scripts
   - style-guide.html
+  - assets/images/raw
