@@ -116,14 +116,20 @@ cat = {
         }
     },
     6: {
-        "title": "tu julgas que amas",
-        "year": 2016,
-        "dur": 3,
-        "dates": "Janeiro 2016",
-        "comm": "Antena 2/RTP, for Prémio Jovens Músicos 2016.",
+        "title":
+        "tu julgas que amas",
+        "year":
+        2016,
+        "dur":
+        3,
+        "dates":
+        "Janeiro 2016",
+        "comm":
+        "Antena 2/RTP, for Prémio Jovens Músicos 2016.",
         "note":
         "encomenda do Prémio Jovens Músicos; peça obrigatório para Piano (nível superior)",
-        "inst": "piano",
+        "inst":
+        "piano",
         "perf": {
             1: {
                 "date":
@@ -140,15 +146,22 @@ cat = {
                 "solo": 'Leonie Kruppa'
             },
         },
-        "soundcloud": 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348574893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
+        "soundcloud":
+        'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348574893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
     },
     7: {
-        "title": "prelúdio, coral e fuga",
-        "year": 2017,
-        "dur": 12,
-        "dates": "Julho–Outubro 2017",
-        "note": "originalmente escrito para o VI concurso Lopes-Graça",
-        "inst": "piano four hands",
+        "title":
+        "prelúdio, coral e fuga",
+        "year":
+        2017,
+        "dur":
+        12,
+        "dates":
+        "Julho–Outubro 2017",
+        "note":
+        "originalmente escrito para o VI concurso Lopes-Graça",
+        "inst":
+        "piano four hands",
         "perf": {
             1: {
                 "date": datetime.datetime(2018, 3, 25),
@@ -156,7 +169,8 @@ cat = {
                 "ensemble": "Duarte Pereira Martins and Philippe Marques, pf"
             }
         },
-        "soundcloud": '"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/538870590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
+        "soundcloud":
+        '"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/538870590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
     },
     8: {
         "title": "bokeh",
@@ -260,12 +274,13 @@ cat = {
 
 
 def site_index():
-    #generate works.html file for the site, overwriting
+    '''
+    generate catalog.html file for the site, overwriting
+    '''
+    
     f = open(
-        "/Users/LSalgueiro/Documents/GitHub/lsalgueiro.github.io/works.html",
+        "/Users/LSalgueiro/Documents/GitHub/lsalgueiro.github.io/_includes/catalog.html",
         "w")
-    jekyllheader = '''---\nlayout: notitle\ntitle: works\nimage: /assets/images/DSCF4031.jpg\n---\n<div class="grid">'''
-    f.write(jekyllheader)
 
     oldyear = 0
     index = len(cat)
@@ -319,10 +334,10 @@ def site_index():
         close = ('</works>' '</div>')
         f.write(close)
 
-    f.write('</div>')
     f.close()
 
     pass
+
 
 def work_page(key):
     title = cat[key]['title']
@@ -330,21 +345,22 @@ def work_page(key):
     strip_special_chars = re.sub('[^a-zA-Z.\d\s]', '', to_lowercase)
     strip_spaces = strip_special_chars.replace(' ', '-')
     filename = strip_spaces
-    
+
     with open(f'./_works/{filename}.md', 'w') as new_file:
         title = cat[key]['title']
         inst = cat[key]['inst']
         dur = cat[key]['dur']
         soundcloud = cat[key]['soundcloud']
-        
+
         opt = ''
         if 'comm' in cat[key]:
             opt += 'comm: ' + cat[key]['comm']
         else:
             pass
-        
+
         if 'perf' in cat[key]:
-            opt += '\nprem: ' + cat[key]['perf'][1]['date'].strftime("%d/%m/%Y") + ', ' + cat[key]['perf'][1]['venue']
+            opt += '\nprem: ' + cat[key]['perf'][1]['date'].strftime(
+                "%d/%m/%Y") + ', ' + cat[key]['perf'][1]['venue']
             if 'ensemble' in cat[key]["perf"][1]:
                 opt += cat[key]["perf"][1]["ensemble"]
                 if 'cond' in cat[key]["perf"][1]:
@@ -353,7 +369,7 @@ def work_page(key):
                 opt += cat[key]["perf"][1]["solo"]
         else:
             pass
-        
+
         work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\ndur: {dur}\n#image: /assets/images/placeholder-2.jpg\nsoundcloud: {soundcloud}\n{opt}\n---'''
         print(work_header)
         new_file.write(work_header)
