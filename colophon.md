@@ -1,7 +1,6 @@
 ---
 layout: notitle
 title: colophon
-#image: /assets/images/placeholder-22.jpg
 ---
 Built on Jekyll.
 
@@ -9,7 +8,7 @@ Absolutely no cookies are served by this site,
 nor by its host, to the best of my knowledge.
 
 Theme by Thomas Vaeth.  
-with additional development by me.
+Additional development by me.
 
 Portraits by Manuel Félix.  
 Additional photography by me, unless credited otherwise.

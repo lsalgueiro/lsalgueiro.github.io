@@ -226,11 +226,33 @@ cat = {
         "Arte no Tempo for the project Nova Música para Novos Músicos 2020.",
         "note":
         "encomenda da Arte no Tempo para o projecto Nova Música para Novos Músicos 2020.",
-        "inst": "viola and fixed media",
+        "inst": "viola and fixed media"
+    },
+    13: {
+        "title": "Wolf Town",
+        "year": 2020,
+        "dur": 10,
+        "dates": "Outubro 2019 – Março 2020",
+        "inst": "saxophone quartet"
+    },
+    14: {
+        "title": "A Princeza dos sapatos de ferro",
+        "year": 2020,
+        "dur": 11,
+        "dates": "Agosto 2019 – Junho 2020",
+        "inst": "piano four hands",
+        "comm": "Duarte Pereira Martins and Philippe Marques"
+    },
+    15: {
+        "title": "Early Eckensee",
+        "year": 2020,
+        "dur": 13,
+        "dates": "rec. February 2020, ed. June 2020",
+        "inst": "2 ch. audio",
         "perf": {
             1: {
-                "date": datetime.datetime(2020, 3, 1),
-                "venue": "Festival Aveiro_Síntese, Teatro Aveirense, Aveiro",
+                "date": datetime.datetime(2020, 6, 23),
+                "venue": "5:4",
             }
         }
     }
@@ -242,8 +264,7 @@ def site_index():
     f = open(
         "/Users/LSalgueiro/Documents/GitHub/lsalgueiro.github.io/works.html",
         "w")
-    jekyllheader = '''---\nlayout: notitle\ntitle: works\nimage: /assets/images/placeholder-22.jpg\n---
-    '''
+    jekyllheader = '''---\nlayout: notitle\ntitle: works\nimage: /assets/images/DSCF4031.jpg\n---\n<div class="grid">'''
     f.write(jekyllheader)
 
     oldyear = 0
@@ -298,6 +319,7 @@ def site_index():
         close = ('</works>' '</div>')
         f.write(close)
 
+    f.write('</div>')
     f.close()
 
     pass
@@ -337,5 +359,5 @@ def work_page(key):
         new_file.write(work_header)
 
 
-#site_index()
-work_page(6)
+site_index()
+#work_page(6)

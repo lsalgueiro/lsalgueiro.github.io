@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Early Eckensee featured on 5:4's Outside-In"
+title: "»Early Eckensee« featured on 5:4's Outside-In"
 date: 2020-06-23
 description: 
 image: /assets/images/IMG_20200216_141700.jpg
