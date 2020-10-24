@@ -18,7 +18,7 @@ Solo, Pt. I (Live)
 do álbum [*Solo I (Live at Centro Cultural de Belém)*](https://nischo.com/portfolio-items/joao-barradas-solo/) (2019)  
 ed. Nischo / Inner Circle Music
 
-![Solo I (Live at Centro Cultural de Belém)](http://nischo.com/wp-content/uploads/2020/02/Capa-Solo-I_800x800.png)
+![Solo I (Live at Centro Cultural de Belém)](https://nischo.com/wp-content/uploads/2020/02/Capa-Solo-I_800x800.png)
 
 ###### João Castro Pinto
 
@@ -55,7 +55,7 @@ ed. Nischo / Inner Circle Music
 ###### Cândido Lima
 
 Gestus-Circus-Círculos (2001)  
-do álbum *[Oceânides](http://mpmp.pt/produto/candido-lima-oceanides/)*  (2016)
+do álbum *[Oceânides](https://mpmp.pt/produto/candido-lima-oceanides/)*  (2016)
 ed. mpmp (Melographia portugueza 11)  
 Sond’Ar-te Electric Ensemble e Ensemble Aleph, dir. Pedro Amaral
 
@@ -141,7 +141,7 @@ Anne-Kathryn Olsen, Alice Kamenezky, Razek-François Bitar, Albert Riera, André
 do álbum *[Orazio Vecchi Requiem](http://www.glossamusic.com/glossa/reference.aspx?id=424)* (2017)  
 ed. Glossa
 
-![Orazio Vecchi Requiem](http://www.glossamusic.com/glossa/files/References/424/GCD_P32113_front_HD.jpg)
+![Orazio Vecchi Requiem](https://static.standaard.be/Assets/Images_Upload/2017/05/10/5300a7ce-34c8-11e7-975c-ba9130004abb.jpg?width=768&format=jpg)
 
 ###### Andreia Pinto Correia
 
