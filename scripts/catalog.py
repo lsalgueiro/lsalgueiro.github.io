@@ -13,7 +13,7 @@ cat = {
             1: {
                 "date": datetime.datetime(2013, 5, 18),
                 "venue": "Palácio Nacional da Ajuda, Lisboa",
-                "ensemble": "Carolina Sá (sop), Bárbara Santos (pf)"
+                "ensemble": "Carolina Sá (sop), Bárbara Costa (pf)"
             },
             2: {
                 "date": datetime.datetime(2013, 5, 3),
