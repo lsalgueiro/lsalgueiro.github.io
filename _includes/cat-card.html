@@ -4,11 +4,11 @@
             {% for category in site.categories %}
             <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
                 <figure class="posts__img">
-                    <img src="{{ category | first | prepend: site.imgs | downcase }}.jpg"
-                        alt="{{ category | first }}" data-aos="fade-in" itemprop="image" />
+                    <img src="{{ category | first | prepend: site.imgs }}.jpg"
+                        alt="{{ category | first | capitalize }}" data-aos="fade-in" itemprop="image" />
                 </figure>
                 <div>
-                    <h3 class="posts__text"><strong itemprop="name">{{ category | first }}</strong></h3>
+                    <h3 class="posts__text"><strong itemprop="name">{{ category | first | capitalize }}</strong></h3>
                 </div>
             </a>
             {% endfor %}

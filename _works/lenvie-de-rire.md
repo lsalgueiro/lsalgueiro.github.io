@@ -5,7 +5,7 @@ inst: for soprano and orchestra
 #image: /assets/images/lenvie.jpg
 dur: 3
 prem: 28/06/2016, Salão Nobre do Conservatório Nacional, Lisboa.
-categories: Orchestral Vocal
+categories: orchestral vocal
 ---
 <epigraph><p>In Greek the act of love is a mingling (<i>mignumi</i>) and desire melts the limbs (<i>lusimelēs</i> [...]). Boundaries of body, categories of thought, are confounded.</p>
 <cite>Anne Carson, <i>Eros the bittersweet</i></cite></epigraph>
