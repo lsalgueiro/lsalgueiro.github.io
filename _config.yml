@@ -59,11 +59,11 @@ autopages:
   categories:
     enabled: false
   collections:
-    enabled: false
+    enabled: true
   tags:
     layouts: 
       - 'tag.html'
-    title: 'Luís Salgueiro'
+    #title: 'Luís Salgueiro'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
@@ -74,6 +74,7 @@ markdown: kramdown
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-tagories
 compress_html:
   clippings: all
   comments: all
