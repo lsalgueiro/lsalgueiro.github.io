@@ -1,17 +1,17 @@
-<!-- <div class="posts"> -->
-<div class="grid-xlarge">
-    <div class="posts__container" itemscope data-columns>
-        {% for category in site.categories %}
-        <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-            <figure class="posts__img">
-                <img src="{{ category | first | prepend: site.baseurl | downcase }}.jpg" alt="{{ category | first }}"
-                    data-aos="fade-in" itemprop="image" />
-            </figure>
-            <div>
-                <h3 class="posts__text"><strong itemprop="name">{{ category | first }}</strong></h3>
-            </div>
-        </a>
-        {% endfor %}
+<div class="posts">
+    <div class="grid-xlarge">
+        <div class="posts__container" itemscope data-columns>
+            {% for category in site.categories %}
+            <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+                <figure class="posts__img">
+                    <img src="{{ category | first | prepend: site.imgs | downcase }}.jpg"
+                        alt="{{ category | first }}" data-aos="fade-in" itemprop="image" />
+                </figure>
+                <div>
+                    <h3 class="posts__text"><strong itemprop="name">{{ category | first }}</strong></h3>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
     </div>
 </div>
-<!-- </div> -->

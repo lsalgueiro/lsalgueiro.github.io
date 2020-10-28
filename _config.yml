@@ -11,6 +11,7 @@ description: >
 url: http://lsalgueiro.netlify.app
 twitter_username: canoxa
 default_img: /assets/images/DSCF3917.jpg
+imgs: /assets/images/
 social:
   - name: soundcloud
     url: https://soundcloud.com/l-salgueiro
