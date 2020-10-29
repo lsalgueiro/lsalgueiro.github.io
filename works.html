@@ -1,5 +1,5 @@
 ---
-layout: notitle
+layout: nomarkdown
 title: works
 image: /assets/images/DSCF4031.jpg
 ---
@@ -8,10 +8,10 @@ image: /assets/images/DSCF4031.jpg
 {% endfor %} -->
 
 
-{% include cat-card.html %}
-<!-- <div class="section-padding"> -->
-    <div class="grid-large">
-        <hr class="sep" />
-    </div>
-<!-- </div> -->
-<div class="grid">{% include catalog.html %}</div>
+{% include categories-card.html %}
+<div class="grid-large section-padding">
+    <hr class="sep" />
+</div>
+<div class="section-padding">
+    <div id="markdown">{% include catalog.html %}</div>
+</div>

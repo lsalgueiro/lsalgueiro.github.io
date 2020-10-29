@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="post">
+  {% if page.image %}
+  <div class="post__img">
+    <div>
+      <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="post__content section-padding">
+    <div class="grid">
+      {{content}}
+    </div>
+  </div>
+  </div>
+</section>
