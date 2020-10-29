@@ -1,6 +1,6 @@
 //----------------------------------------------
 // Posts
-//---------------------------------------------- 
+//----------------------------------------------
 .posts {
   padding: 1em 1em 3em;
 
@@ -33,15 +33,15 @@
 
     &[data-columns]:before {
       @media screen and (max-width: $mq-med) {
-        content: '1 .column.posts-full';
+        content: "1 .column.posts-full";
       }
 
       @media screen and (min-width: $mq-med) and (max-width: $mq-xlarge) {
-        content: '2 .column.posts-half';
+        content: "2 .column.posts-half";
       }
 
       @media screen and (min-width: $mq-xlarge) {
-        content: '3 .column.posts-third';
+        content: "3 .column.posts-third";
       }
     }
 
@@ -73,6 +73,22 @@
       .posts__img {
         transform: translate3d(0, -10px, 0);
       }
+    }
+  }
+
+  &__gallery {
+    // tighter gallery for works page categories
+    padding: 0.5em;
+  }
+
+  &__galleryimg {
+    margin-bottom: 0;
+
+    background-color: $color-lightgrey;
+    transition: transform 400ms ease-in-out;
+
+    img {
+      display: block;
     }
   }
 
@@ -158,7 +174,7 @@
 
 //----------------------------------------------
 // Salvattore
-//---------------------------------------------- 
+//----------------------------------------------
 .column {
   float: left;
 }
