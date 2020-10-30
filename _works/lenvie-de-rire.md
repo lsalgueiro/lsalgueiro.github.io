@@ -2,7 +2,7 @@
 layout: work
 title: L'envie de rire
 inst: for soprano and orchestra
-#image: /assets/images/lenvie.jpg
+image: /assets/images/placeholder-13.jpg
 dur: 3
 prem: 28/06/2016, Salão Nobre do Conservatório Nacional, Lisboa.
 categories: orchestral vocal

@@ -2,8 +2,9 @@
     <!-- <div class="grid-xlarge"> -->
     <div class="posts__container" itemscope data-columns>
         {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
         <article class="posts__gallery">
-            <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+            <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}/works/{{ category_name }}" itemprop="url">
                 <figure class="posts__galleryimg">
                     <img src="{{ category | first | prepend: site.imgs }}.jpg" alt="{{ category | first | capitalize }}"
                         data-aos="fade-in" itemprop="image" />

@@ -58,9 +58,15 @@ pagination:
 autopages:
   enabled: true
   categories:
-    enabled: false
-  collections:
     enabled: true
+    layouts: 
+      - 'category.html'
+    permalink: '/works/:cat'
+    slugify:
+      mode: raw
+      cased: false
+  collections:
+    enabled: false
   tags:
     layouts: 
       - 'tag.html'
