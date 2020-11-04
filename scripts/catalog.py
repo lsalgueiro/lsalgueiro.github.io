@@ -147,7 +147,8 @@ cat = {
             },
         },
         "soundcloud":
-        'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348574893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
+        'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348574893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"',
+        "slug": "tu-julgas-que-amas"
     },
     7: {
         "title":
@@ -170,7 +171,8 @@ cat = {
             }
         },
         "soundcloud":
-        '"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/538870590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"'
+        '"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/538870590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"',
+        "slug": "preludio-coral-e-fuga"
     },
     8: {
         "title": "bokeh",
@@ -229,7 +231,8 @@ cat = {
                 "cond": "Pedro Neves",
                 "solo": "Lara Martins, sop"
             }
-        }
+        },
+        "slug": "lenvie-de-rire"
     },
     12: {
         "title": "Fuzzy Concepts",
@@ -301,11 +304,17 @@ def site_index():
         else:
             pass
 
-        piece = ('<div class="piece"><works>'
-                 '<h6>' + cat[index]["title"] + '</h6>'
-                 '<p>for ' + cat[index]["inst"] + '</p>'
+        piece_html_header = '<div class="piece"><works>'
+        f.write(piece_html_header)
+        
+        if 'slug' in cat[index]: 
+            title = '<h6><a href="{{ site.baseurl }}/works/' + cat[index]["slug"] + '" itemprop="url">' + cat[index]["title"] + '</a></h6>'
+        else:
+            title = '<h6>' + cat[index]["title"] + '</h6>'
+        f.write(title)
+                 
+        f.write('<p>for ' + cat[index]["inst"] + '</p>'
                  '<p>dur. ca. ' + str(cat[index]["dur"]) + "\'</p>")
-        f.write(piece)
 
         if 'comm' in cat[index]:
             f.write('<p>Commissioned by ' + cat[index]["comm"] + '</p>')
