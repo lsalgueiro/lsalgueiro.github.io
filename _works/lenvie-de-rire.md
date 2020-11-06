@@ -7,13 +7,13 @@ dur: 3
 prem: 28/06/2016, Salão Nobre do Conservatório Nacional, Lisboa.
 categories: orchestral vocal
 ---
-<epigraph><p>In Greek the act of love is a mingling (<i>mignumi</i>) and desire melts the limbs (<i>lusimelēs</i> [...]). Boundaries of body, categories of thought, are confounded.</p>
+<epigraph>In Greek the act of love is a mingling (<i>mignumi</i>) and desire melts the limbs (<i>lusimelēs</i> [...]). Boundaries of body, categories of thought, are confounded.
 <cite>Anne Carson, <i>Eros the bittersweet</i></cite></epigraph>
 
-<epigraph><p>É ir buscar à irracionalidade do corpo, do inconsciente e do desconhecido a intensidade do sentido que torna inteligível um acontecimento, um comportamento, uma ideia. A intensidade não é extrínseca ao pensamento, pelo contrário, pensar é pensar excessivamente, intensamente.</p>
+<epigraph>É ir buscar à irracionalidade do corpo, do inconsciente e do desconhecido a intensidade do sentido que torna inteligível um acontecimento, um comportamento, uma ideia. A intensidade não é extrínseca ao pensamento, pelo contrário, pensar é pensar excessivamente, intensamente.
 <cite>José Gil, <i>Caos e ritmo</i></cite></epigraph>
 
-<epigraph><p>J’ai consulté hier un dictionnaire voulant connaître la hauteur de la atmosphère: la colonne d’air dont nous devons supporter le poids ne serait pas inférieure à dix-sept tonnes.</p>
+<epigraph>J’ai consulté hier un dictionnaire voulant connaître la hauteur de la atmosphère: la colonne d’air dont nous devons supporter le poids ne serait pas inférieure à dix-sept tonnes.
 <cite>Georges Bataille, <i>Le coupable</i></cite></epigraph>
 
 ---

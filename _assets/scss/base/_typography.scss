@@ -117,6 +117,7 @@ epigraph {
   color: $color-black;
   line-height: 1.4;
   text-align: right;
+  margin-top: 1em;
 
   @media (min-width: $mq-small) {
     font-size: 1.5em;
@@ -133,6 +134,7 @@ cite {
   font-style: normal;
   color: $color-black;
   line-height: $base-lineheight;
+  margin-top: 0.5em;
 
   &:before {
     content: "\2014 \0020";
