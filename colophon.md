@@ -13,6 +13,8 @@ Additional development by me.
 Portraits by Manuel Félix.  
 Additional photography by me, unless credited otherwise.
 
+Written content by me, unless credited otherwise.
+
 Ibarra Real Nova designed by José María Ribagorda and Octavio Pardo;  
 Manrope designed by Mikhail Sharanda;  
 Playfair Display designed by Claus Eggers Sørensen;  
