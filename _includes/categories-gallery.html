@@ -1,7 +1,9 @@
 <div class="posts">
     <!-- <div class="grid-xlarge"> -->
     <div class="posts__container" itemscope data-columns>
-        {% for category in site.categories %}
+        {% assign sorted_cats = site.categories | sort %}
+        
+        {% for category in sorted_cats %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <article class="posts__gallery">
             <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}/works/{{ category_name }}" itemprop="url">

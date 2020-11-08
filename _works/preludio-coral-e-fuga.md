@@ -28,11 +28,11 @@ _prelúdio, coral e fuga_ was conceived to be first and foremost about light: sh
 
 Almost all of the agogic markings throughout the score refer to properties of how a material refracts light. _Iridescente_ — iridescent — is the material that changes color depending on the angle at which it is struck by light: sometimes shifting its hue as one gets closer, or quite often spilling the light it reflects into a rainbow. In adularescence, light seems to inhabit the inside of a gemstone instead, giving off a warm inner glow.
 
-And "caustic", while more commonly understood as "corrosive" — and the fugue it **"ADJECTIVATES"** does indeed end up desintegrating —, is also the name of a phenomenon in optics, in which a curved surface concentrates the light it receives like those dancing rays you get when the sun hits a glass
-
-https://en.wikipedia.org/wiki/Caustic_(optics)
+And "caustic", while more commonly understood as "corrosive" — and the fugue it **"ADJECTIVATES"** does indeed end up desintegrating —, is also the name of a phenomenon in optics, in which a curved surface bends and concentrates the light it receives. Caustics are those shining bright forms that show light emerging transformed after going through a material. Caustics are light animated by contact, irrevocably opened up.
 
 ## voz — sujeito
+
+<https://ensina.rtp.pt/artigo/jorge-sena-poesia/>
 
 Two programs of subjectivity running up against a system: one declared — musical material using, rubbing against, perhaps ultimately discarding the forms that gave them shape —, one undeclared — a composer using, rubbing against, perhaps ultimately discarding the structures that gave him shape
 

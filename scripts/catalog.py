@@ -172,7 +172,8 @@ cat = {
         },
         "soundcloud":
         '"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/538870590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"',
-        "slug": "preludio-coral-e-fuga"
+        "slug": "preludio-coral-e-fuga",
+        "cats": 'chamber'
     },
     8: {
         "title": "bokeh",
@@ -271,7 +272,9 @@ cat = {
                 "date": datetime.datetime(2020, 6, 23),
                 "venue": "5:4",
             }
-        }
+        },
+        "cats": "electroacoustic",
+        "slug": "early-eckensee"
     }
 }
 
@@ -359,7 +362,6 @@ def work_page(key):
         title = cat[key]['title']
         inst = cat[key]['inst']
         dur = cat[key]['dur']
-        soundcloud = cat[key]['soundcloud']
 
         opt = ''
         if 'comm' in cat[key]:
@@ -368,7 +370,7 @@ def work_page(key):
             pass
 
         if 'perf' in cat[key]:
-            opt += '\nprem: ' + cat[key]['perf'][1]['date'].strftime(
+            opt += 'prem: ' + cat[key]['perf'][1]['date'].strftime(
                 "%d/%m/%Y") + ', ' + cat[key]['perf'][1]['venue']
             if 'ensemble' in cat[key]["perf"][1]:
                 opt += cat[key]["perf"][1]["ensemble"]
@@ -378,11 +380,21 @@ def work_page(key):
                 opt += cat[key]["perf"][1]["solo"]
         else:
             pass
+        
+        if 'soundcloud' in cat[key]:
+            opt += '\nsoundcloud: ' + cat[key]['soundcloud']
+        else:
+            pass
+        
+        if 'cats' in cat[key]:
+            opt += '\ncategories: ' + cat[key]['cats']
+        else:
+            pass
 
-        work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\ndur: {dur}\n#image: /assets/images/placeholder-2.jpg\nsoundcloud: {soundcloud}\n{opt}\n---'''
+        work_header = f'''---\nlayout: work\ntitle: {title}\ninst: {inst}\ndur: {dur}\n#image: /assets/images/placeholder-2.jpg\n{opt}\n---'''
         print(work_header)
         new_file.write(work_header)
 
 
-site_index()
-#work_page(6)
+#site_index()
+work_page(15)
