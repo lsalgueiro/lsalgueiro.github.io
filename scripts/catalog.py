@@ -251,7 +251,9 @@ cat = {
         "year": 2020,
         "dur": 10,
         "dates": "Outubro 2019 – Março 2020",
-        "inst": "saxophone quartet"
+        "inst": "saxophone quartet",
+        "cats": "chamber",
+        "slug": "wolf-town"
     },
     14: {
         "title": "A Princeza dos sapatos de ferro",
@@ -396,5 +398,5 @@ def work_page(key):
         new_file.write(work_header)
 
 
-#site_index()
-work_page(15)
+site_index()
+work_page(13)
