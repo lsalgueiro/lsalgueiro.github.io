@@ -6,7 +6,10 @@ layout: default
     {% if page.image %}
     <div class="post__img">
       <div>
-        <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+        <figure class="absolute-bg" style="background-image: url('{{ page.image }}');">
+          <figcaption>{% if page.imgcred %}
+          © {{ page.imgcred }}
+          {% endif %}</figcaption></figure>
       </div>
     </div>
     {% endif %}
@@ -30,6 +33,15 @@ layout: default
         {% if page.prem %}
         <p>Premiered {{ page.prem }}</p>
         {% endif %}
+
+        {% if page.ensemble %}
+        <p>{{ page.ensemble }}</p>
+        {% endif %}
+
+        {% if page.solo %}
+        <p>{{ page.solo }}</p>
+        {% endif %}
+
         {% if page.soundcloud %}
         <iframe src={{ page.soundcloud }}></iframe>
         {% endif %}

@@ -375,11 +375,11 @@ def work_page(key):
             opt += 'prem: ' + cat[key]['perf'][1]['date'].strftime(
                 "%d/%m/%Y") + ', ' + cat[key]['perf'][1]['venue']
             if 'ensemble' in cat[key]["perf"][1]:
-                opt += cat[key]["perf"][1]["ensemble"]
+                opt += '\nensemble: ' + cat[key]["perf"][1]["ensemble"]
                 if 'cond' in cat[key]["perf"][1]:
                     opt += ', cond. ' + cat[key]["perf"][1]["cond"]
             if 'solo' in cat[key]["perf"][1]:
-                opt += cat[key]["perf"][1]["solo"]
+                opt += '\nsolo: ' + cat[key]["perf"][1]["solo"]
         else:
             pass
         
@@ -399,4 +399,4 @@ def work_page(key):
 
 
 site_index()
-work_page(13)
+work_page(11)

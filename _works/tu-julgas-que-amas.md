@@ -15,6 +15,6 @@ categories: solo
 
 The program for the rounds was already public before I started work on this piece. I skimmed, curious, over the list, and found myself missing some particular names.
 
-I wouldn't want to be misinterpreted: I do feel at home in that pantheon. (While I wrote this piece, I worked Scriabin's Prelude in E minor from op. 11 into my fingers; before that, whatever little I could from Liszt's _Vallée d'Obermann_.) Still, this piece barely conceals a debt to other masters: Dutilleux (whose centennial coincided with the last days of work on this piece), Takemitsu (who departed 20 years ago), Knussen or Stroppa. Indexical of that debt is my conception of the piano as a great resonating body that conjures space for seduction, introspection, loneliness.
+I wouldn't want to be misinterpreted: I do feel at home in that pantheon. (While I wrote this piece, I worked Scriabin's Prelude in E minor from op. 11 into my fingers; before that, whatever little I could from Liszt's _Vallée d'Obermann_.) Still, this piece barely tries to conceal a debt to other masters: Dutilleux (whose centennial coincided with the last days of work on this piece), Takemitsu (who departed 20 years ago), Knussen or Stroppa. Indexical of that debt is my conception of the piano as a great resonating body that conjures space for seduction, introspection, loneliness.
 
-This piece was commissioned by Antena 2 / RTP for the main round of Prémio Jovens Músicos 2016, and is dedicated to Luís Tinoco.
+This piece was commissioned by Antena 2 / RTP for the main qualifying round of Prémio Jovens Músicos 2016, and is dedicated to Luís Tinoco.

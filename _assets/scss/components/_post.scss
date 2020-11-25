@@ -43,11 +43,27 @@
 
       background-color: $color-lightgrey;
     }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: $font-xsmall;
+      text-align: right;
+      padding-right: 1em;
+      padding-left: 1em;
+      color: $color-white;
+      opacity: 0.7;
+    }
   }
 
   // &__amp-img {
   //   padding: 1em;
   // }
+
+  &__img-caption {
+    font-size: $font-xsmall;
+  }
 
   &__info {
     font-size: $font-xsmall;
