@@ -1,13 +1,14 @@
 ---
 layout: work
 title: L'envie de rire
-inst: soprano and orchestra
+inst: for soprano and orchestra
 dur: 9
 image: /assets/images/lenvie.jpg
 imgcred: Fundação Calouste Gulbenkian
 prem: 13/07/2019, Grande Auditório da Fundação Calouste Gulbenkian, Lisboa
 ensemble: Orquestra Gulbenkian, cond. Pedro Neves
 solo: Lara Martins, soprano
+soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/936379150&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true
 categories: orchestral vocal
 ---
 <epigraph>In Greek the act of love is a mingling (<i>mignumi</i>) and desire melts the limbs (<i>lusimelēs</i> [...]). Boundaries of body, categories of thought, are confounded.
