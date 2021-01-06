@@ -261,7 +261,15 @@ cat = {
         "dur": 11,
         "dates": "Agosto 2019 – Junho 2020",
         "inst": "piano four hands",
-        "comm": "Duarte Pereira Martins and Philippe Marques"
+        "comm": "Duarte Pereira Martins and Philippe Marques",
+        "perf": {
+            1: {
+                "date": datetime.datetime(2020, 7, 17),
+                "venue": "Museu da Música, Lisboa",
+                "ensemble": "Duarte Pereira Martins and Philippe Marques, pf"
+            }
+        },
+        "slug": "princeza"
     },
     15: {
         "title": "Early Eckensee",
@@ -277,6 +285,14 @@ cat = {
         },
         "cats": "electroacoustic",
         "slug": "early-eckensee"
+    },
+    16: {
+        "title": "Dyads, Triads",
+        "year": 2020,
+        "dur": 6,
+        "dates": "Novembro – Dezembro 2020",
+        "inst": "soprano saxophone and vibraphone",
+        "slug": "dyads-triads"
     }
 }
 

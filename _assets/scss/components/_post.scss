@@ -44,7 +44,7 @@
       background-color: $color-lightgrey;
     }
 
-    figcaption {
+    credit {
       position: absolute;
       bottom: 0;
       width: 100%;
@@ -151,7 +151,7 @@
 
   .post-layout &,
   #style-guide & {
-    font-family: $font-post;
+    font-family: $font;
   }
 
   & > * {
@@ -221,7 +221,6 @@
     font-size: 1em;
 
     @media (min-width: $mq-small) {
-      //font-size: 1.25em;
       font-size: 1em;
     }
 
@@ -274,6 +273,12 @@
     iframe {
       display: block;
     }
+  }
+
+  .footnotes {
+    font-size: x-small;
+    line-height: normal;
+    color: $color-darkgrey;
   }
 
   // works page
